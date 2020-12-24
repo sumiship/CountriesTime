@@ -8,11 +8,16 @@ body{
 }
 
 .first{
-  padding-top: 68px;
+  padding-top: 50px;
 }
 
 p{
   text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 30px;
 }
 
 
