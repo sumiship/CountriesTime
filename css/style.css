@@ -23,12 +23,12 @@ p{
 
 /* 各国の設定 */
 #Japan{
-  background-image: url("../Japan.png");
+  background-image: url("../image/Japan.png");
   background-size: contain;
 }
 
 #America{
-  background-image: url("../America.png");
+  background-image: url("../image/America.png");
   background-size: contain;
 }
 
