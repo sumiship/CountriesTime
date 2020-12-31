@@ -43,6 +43,7 @@
     html("Brazil",-3);
     html("Taiwan",8);
     html("Korea",9);
+    html("India",5.5);
   }
 
 
