@@ -47,7 +47,10 @@ p{
   background-size: contain;
 }
 
-
+#Korea{
+  background-image: url("../image/Korea.jpg");
+  background-size: contain;
+}
 
 
 

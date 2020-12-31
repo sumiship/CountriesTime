@@ -42,6 +42,7 @@
     html("France",1);
     html("Brazil",-3);
     html("Taiwan",8);
+    html("Korea",9);
   }
 
 
