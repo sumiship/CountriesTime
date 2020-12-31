@@ -8,12 +8,21 @@ header {
   width: 100%;
   height: 70px;
   background-color: cadetblue;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 90px;
+  height: 70px;
+  padding: 5px 10px 5px 20px;
 }
 
 main{
   background-color: bisque;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 10px;
 }
 
