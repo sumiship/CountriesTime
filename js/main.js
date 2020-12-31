@@ -39,6 +39,11 @@
   function clock() {
     html("Japan",9);
     html("America",-5);
+    html("France",1);
+    html("Brazil",-3);
+    html("Taiwan",8);
+    html("Korea",9);
+    html("India",5.5);
   }
 
 

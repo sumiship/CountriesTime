@@ -20,6 +20,11 @@ p{
   font-size: 30px;
 }
 
+.bgtoka{
+  width: 300px;
+  height:200px;
+  background: rgba(255,255,255,0.5);
+}
 
 /* 各国の設定 */
 #Japan{
@@ -32,10 +37,30 @@ p{
   background-size: contain;
 }
 
+#France{
+  background-image: url("../image/France.jpg");
+  background-size: contain;
+}
 
+#Brazil{
+  background-image: url("../image/Brazil.png");
+  background-size: contain;
+}
 
+#Taiwan{
+  background-image: url("../image/Taiwan.png");
+  background-size: contain;
+}
 
+#Korea{
+  background-image: url("../image/Korea.jpg");
+  background-size: contain;
+}
 
+#India{
+  background-image: url("../image/India.png");
+  background-size: contain;
+}
 
 
 
