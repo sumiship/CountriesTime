@@ -39,6 +39,7 @@
   function clock() {
     html("Japan",9);
     html("America",-5);
+    html("France",1);
   }
 
 
