@@ -20,13 +20,13 @@
 
   function put(i) {
     let time = now(i);
-    let month = addZero(time.getMonth());
+    let month = addZero(time.getMonth()+1);
     let date = addZero(time.getDate());
     let day = [ "日", "月", "火", "水", "木", "金", "土" ][time.getDay()];
     let hour = addZero(time.getHours());
     let min = addZero(time.getMinutes());
     let sec = addZero(time.getSeconds());
-    let ret1 = month+1 + "/" + date + " (" + day + ")";
+    let ret1 = month + "/" + date + " (" + day + ")";
     let ret2 = hour + ":" + min + ":" + sec;
     return [ret1, ret2]
   }
