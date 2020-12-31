@@ -42,7 +42,10 @@ p{
   background-size: contain;
 }
 
-
+#Taiwan{
+  background-image: url("../image/Taiwan.png");
+  background-size: contain;
+}
 
 
 
