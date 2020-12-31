@@ -44,6 +44,13 @@
     html("Taiwan",8);
     html("Korea",9);
     html("India",5.5);
+    html("SaudiArabia",3);
+    html("Germany",1);
+    html("Sweden",1);
+    html("Malaysia",8);
+    html("Spain",1);
+    html("Portugal",0);
+    html("England",0);
   }
 
 

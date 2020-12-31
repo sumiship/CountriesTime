@@ -1,10 +1,27 @@
-body{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: cadetblue;
+}
+
+main{
   background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
 .item{
   width:300px;
   height:200px;
+  margin: 10px;
+  position: relative;
 }
 
 .first{
@@ -16,7 +33,6 @@ p{
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
-
   font-size: 30px;
 }
 
@@ -24,6 +40,15 @@ p{
   width: 300px;
   height:200px;
   background: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgoldenrod;
 }
 
 /* 各国の設定 */
@@ -54,11 +79,40 @@ p{
 
 #Korea{
   background-image: url("../image/Korea.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 #India{
   background-image: url("../image/India.png");
+  background-size: contain;
+}
+#SaudiArabia{
+  background-image: url("../image/SaudiArabia.png");
+  background-size: contain;
+}
+#Germany{
+  background-image: url("../image/Germany.png");
+  background-size: contain;
+}
+#Sweden{
+  background-image: url("../image/Sweden.png");
+  background-size: contain;
+}
+#Malaysia{
+  background-image: url("../image/Malaysia.png");
+  background-size: contain;
+}
+#Spain{
+  background-image: url("../image/Spain.png");
+  background-size: contain;
+}
+#Portugal{
+  background-image: url("../image/Portugal.png");
+  background-size: contain;
+}
+#England{
+  background-image: url("../image/England.png");
   background-size: contain;
 }
 
