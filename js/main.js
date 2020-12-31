@@ -38,8 +38,7 @@
 
   function clock() {
     html("Japan",9);
-    console.log(i);
-    i += 1;
+    html("America",-5);
   }
 
 
@@ -47,6 +46,9 @@
 
 
 }
+
+
+
 
 
 
